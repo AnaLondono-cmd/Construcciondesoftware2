@@ -10,7 +10,6 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Buyer Management domain. A buyer never manages another buyer's information nor any inventory. */
 @Entity
 @Table(name = "buyers")
 @Getter
