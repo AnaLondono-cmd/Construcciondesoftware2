@@ -8,7 +8,6 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-/** Immutable historical record of every movement affecting an Inventory. */
 @Entity
 @Table(name = "inventory_movements")
 @Getter
