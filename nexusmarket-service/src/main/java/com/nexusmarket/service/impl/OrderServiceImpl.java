@@ -35,10 +35,7 @@ public class OrderServiceImpl implements OrderService {
         this.invoicingService = invoicingService;
     }
 
-    /**
-     * Reserves inventory for every physical item before creating the Order; if any item lacks
-     * availability, the whole transaction is rolled back (atomicity).
-     */
+   
     @Override
     @Transactional
     public Order confirmOrder(Long buyerId, Long dispatchWarehouseId) {
@@ -83,7 +80,6 @@ public class OrderServiceImpl implements OrderService {
         return order;
     }
 
-    /** Converts the inventory reservation into a definitive sale outbound movement. */
     @Override
     @Transactional
     public Order ship(Long orderId, Long dispatchWarehouseId) {
