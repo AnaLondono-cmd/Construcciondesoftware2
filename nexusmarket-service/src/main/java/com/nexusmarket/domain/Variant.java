@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** Differentiates a Product by color, size, model, etc. */
 @Entity
 @Table(name = "variants")
 @Getter
