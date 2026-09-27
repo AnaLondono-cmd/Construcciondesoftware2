@@ -11,7 +11,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Catalog Management domain. Distinguishes physical products (need inventory/shipping) from digital ones. */
 @Entity
 @Table(name = "products")
 @Getter
