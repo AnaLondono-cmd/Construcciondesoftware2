@@ -72,7 +72,7 @@ com.nexusmarket
 
 ## 4. How to run
 
-Requires JDK 17 and Maven (or add the `./mvnw` wrapper to the repo).
+Requires JDK 17 and Maven.
 
 ```bash
 # Compile and run the business-rule unit tests
