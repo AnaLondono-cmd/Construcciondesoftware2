@@ -9,7 +9,6 @@ import lombok.Setter;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/** Refunds domain. Monetary compensation tied to an approved ReturnRequest. */
 @Entity
 @Table(name = "refunds")
 @Getter
