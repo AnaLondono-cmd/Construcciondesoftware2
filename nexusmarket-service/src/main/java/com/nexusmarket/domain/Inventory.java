@@ -9,10 +9,7 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Inventory Management domain. Distributed stock: always linked to one Product and one Warehouse.
- * Invariant: quantities can never go negative. No reservation is allowed on damaged stock.
- */
+
 @Entity
 @Table(name = "inventories", uniqueConstraints = @UniqueConstraint(columnNames = {"product_id", "warehouse_id"}))
 @Getter
