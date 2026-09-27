@@ -7,7 +7,6 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 
-/** A single product line within a Cart. */
 @Entity
 @Table(name = "cart_items")
 @Getter
