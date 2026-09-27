@@ -9,7 +9,6 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Warehouse Management domain. Distinguishes Marketplace warehouses from Seller warehouses. */
 @Entity
 @Table(name = "warehouses")
 @Getter
@@ -31,7 +30,6 @@ public class Warehouse {
     @Embedded
     private Address location;
 
-    /** Null when warehouseType = MARKETPLACE. */
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "seller_id")
     private Seller owner;
