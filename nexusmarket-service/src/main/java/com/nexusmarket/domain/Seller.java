@@ -11,10 +11,7 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Seller Management domain. Business rule: a seller cannot self-register;
- * it is created only through AdministratorService.registerSeller().
- */
+
 @Entity
 @Table(name = "sellers")
 @Getter
