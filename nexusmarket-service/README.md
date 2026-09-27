@@ -40,8 +40,7 @@ com.nexusmarket
 - Persistence via Spring Data JPA over an in-memory H2 database (an implementation decision for
   this deliverable; the domain model itself stays storage-agnostic, as required by section 3.2 of
   the specification).
-- All code — class, method and field names, comments and exception messages — is written in
-  English, independently of the (Spanish-language) source specification.
+
 
 ## 2. Domain → Service → Use case mapping
 
