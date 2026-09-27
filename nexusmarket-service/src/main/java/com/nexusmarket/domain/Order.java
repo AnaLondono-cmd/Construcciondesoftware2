@@ -12,10 +12,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Order Management domain. Represents the formal commercial commitment; its lifecycle
- * (Cart -> Pending Payment -> Paid -> Shipped -> Delivered/Completed) is the system's core process.
- */
+
 @Entity
 @Table(name = "orders")
 @Getter
