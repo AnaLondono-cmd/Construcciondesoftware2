@@ -11,13 +11,7 @@ import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
-/**
- * Walks through the "General Business Flow" (functional specification, section 6.1) end to end,
- * using only the application services, to demonstrate that use cases and business rules are
- * fully resolved by the service layer.
- *
- * Activated only with the "demo" profile: mvn spring-boot:run -Dspring-boot.run.profiles=demo
- */
+
 @Component
 @Profile("demo")
 public class BusinessFlowDemoRunner implements CommandLineRunner {
