@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** Value object: a delivery or warehouse location. Has no identity of its own. */
 @Embeddable
 @Getter
 @Setter
