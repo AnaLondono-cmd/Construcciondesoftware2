@@ -7,7 +7,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** Responsible for administering sellers and warehouses. */
 @Entity
 @Table(name = "administrators")
 @Getter
