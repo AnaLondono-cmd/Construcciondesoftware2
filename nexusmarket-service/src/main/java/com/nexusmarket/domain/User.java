@@ -9,10 +9,7 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-/**
- * Base identification class for every participant of the Marketplace (User Management domain).
- * Business rule: every concrete subclass carries exactly one role.
- */
+
 @Entity
 @Table(name = "users")
 @Inheritance(strategy = InheritanceType.JOINED)
