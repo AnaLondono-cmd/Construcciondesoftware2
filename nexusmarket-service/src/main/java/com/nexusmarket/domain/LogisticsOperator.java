@@ -7,7 +7,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** Responsible for the physical operation of warehouses and dispatches. */
 @Entity
 @Table(name = "logistics_operators")
 @Getter
