@@ -8,7 +8,6 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-/** Logistics process for physical products: packing, dispatch and transport. */
 @Entity
 @Table(name = "shipments")
 @Getter
