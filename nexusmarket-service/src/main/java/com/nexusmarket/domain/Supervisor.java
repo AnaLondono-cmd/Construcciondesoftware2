@@ -7,7 +7,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** Read-only profile for operational monitoring. Never mutates business state. */
 @Entity
 @Table(name = "supervisors")
 @Getter
