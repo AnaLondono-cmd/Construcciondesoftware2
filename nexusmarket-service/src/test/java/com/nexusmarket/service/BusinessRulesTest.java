@@ -11,11 +11,7 @@ import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Unit tests for the domain invariants, with no need to bootstrap the Spring context:
- *  - Inventory never goes negative / cannot be reserved when marked as damaged.
- *  - A completed order can no longer be modified.
- */
+
 class BusinessRulesTest {
 
     @Test
