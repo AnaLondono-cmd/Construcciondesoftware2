@@ -8,7 +8,6 @@ import lombok.Setter;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/** Invoicing domain. Commercial information tied to the sale, generated once payment is confirmed. */
 @Entity
 @Table(name = "invoices")
 @Getter
