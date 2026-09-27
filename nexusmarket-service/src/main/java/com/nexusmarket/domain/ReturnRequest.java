@@ -8,7 +8,6 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-/** Returns domain. Only applies to an order that has already been delivered/completed. */
 @Entity
 @Table(name = "return_requests")
 @Getter
