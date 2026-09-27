@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Order Management domain (step 1 of the cycle): a provisional product selection. */
 @Entity
 @Table(name = "carts")
 @Getter
